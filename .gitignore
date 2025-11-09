@@ -1,0 +1,52 @@
+# Environment files
+.env
+*.env
+.env.*
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+wheels/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mac / system files
+.DS_Store
+Thumbs.db
+
+# Logs and debug
+*.log
+logs/
+debug.log
+
+# Jupyter / temporary notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Cache directories
+.cache/
+__pycache__/
+.pytest_cache/
+
+# Optional: project-specific
+*.sqlite3
+*.db
